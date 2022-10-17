@@ -30,6 +30,20 @@ E - FAT-16 (LBA)
 # Variables
 Adjust the **disktoRead** variable depending on the required sample size.
 
+# Output Information
+- Partition Information contained within the MBR (Master Boot Record)
+-	FAT Volume information  
+a.	Sectors Per Cluster  
+b.	Size of the FAT Area  
+c.	Size of the Root Directory  
+d.	Sector Address of Cluster #2  
+- For a deleted file in the root directory displaying the  
+a.	Starting Cluster  
+b.	Size of the file  
+c.	Name of the file  
+d.	First 16 characters of the file contents 
+
+
 # Sample Output
 ![](SampleOutput.PNG)
 ![](SampleOutput2.PNG)
